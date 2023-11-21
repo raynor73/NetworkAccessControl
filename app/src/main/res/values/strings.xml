@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Network Access Control</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="dismiss">Dismiss</string>
+</resources>
