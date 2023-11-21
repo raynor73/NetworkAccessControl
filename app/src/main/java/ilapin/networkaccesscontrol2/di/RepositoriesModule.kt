@@ -1,13 +1,13 @@
-package ilapin.networkaccesscontrol.di
+package ilapin.networkaccesscontrol2.di
 
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import ilapin.networkaccesscontrol.data.AndroidAppsRepository
-import ilapin.networkaccesscontrol.data.FsRestrictedNetworkAccessPackageNamesRepository
-import ilapin.networkaccesscontrol.domain.AppsRepository
-import ilapin.networkaccesscontrol.domain.RestrictedNetworkAccessPackageNamesRepository
+import ilapin.networkaccesscontrol2.data.AndroidAppsRepository
+import ilapin.networkaccesscontrol2.data.FsRestrictedNetworkAccessPackageNamesRepository
+import ilapin.networkaccesscontrol2.domain.AppsRepository
+import ilapin.networkaccesscontrol2.domain.RestrictedNetworkAccessPackageNamesRepository
 
 @Module
 @InstallIn(SingletonComponent::class)

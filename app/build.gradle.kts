@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "ilapin.networkaccesscontrol"
+    namespace = "ilapin.networkaccesscontrol2"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "ilapin.networkaccesscontrol"
+        applicationId = "ilapin.networkaccesscontrol2"
         minSdk = 21
         targetSdk = 21
         versionCode = 1

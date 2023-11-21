@@ -1,4 +1,4 @@
-package ilapin.networkaccesscontrol.domain
+package ilapin.networkaccesscontrol2.domain
 
 interface RestrictedNetworkAccessPackageNamesRepository {
     suspend fun getPackageNames(): List<String>

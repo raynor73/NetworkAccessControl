@@ -1,4 +1,4 @@
-package ilapin.networkaccesscontrol.di
+package ilapin.networkaccesscontrol2.di
 
 import android.content.Context
 import android.content.pm.PackageManager

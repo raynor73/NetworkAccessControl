@@ -1,12 +1,11 @@
-package ilapin.networkaccesscontrol
+package ilapin.networkaccesscontrol2
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import dagger.hilt.android.AndroidEntryPoint
 import dagger.hilt.android.lifecycle.HiltViewModel
-import ilapin.networkaccesscontrol.domain.AppWithNetworkPermission
-import ilapin.networkaccesscontrol.domain.AppsRepository
-import ilapin.networkaccesscontrol.domain.RestrictedNetworkAccessPackageNamesRepository
+import ilapin.networkaccesscontrol2.domain.AppWithNetworkPermission
+import ilapin.networkaccesscontrol2.domain.AppsRepository
+import ilapin.networkaccesscontrol2.domain.RestrictedNetworkAccessPackageNamesRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch

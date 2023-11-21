@@ -1,4 +1,4 @@
-package ilapin.networkaccesscontrol
+package ilapin.networkaccesscontrol2
 
 import org.junit.Test
 

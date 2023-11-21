@@ -1,12 +1,10 @@
-package ilapin.networkaccesscontrol.data
+package ilapin.networkaccesscontrol2.data
 
 import android.Manifest
-import android.content.pm.ApplicationInfo
 import android.content.pm.PackageManager
-import android.content.pm.PermissionInfo
-import ilapin.networkaccesscontrol.domain.AppWithNetworkPermission
-import ilapin.networkaccesscontrol.domain.AppsRepository
-import ilapin.networkaccesscontrol.domain.RestrictedNetworkAccessPackageNamesRepository
+import ilapin.networkaccesscontrol2.domain.AppWithNetworkPermission
+import ilapin.networkaccesscontrol2.domain.AppsRepository
+import ilapin.networkaccesscontrol2.domain.RestrictedNetworkAccessPackageNamesRepository
 import javax.inject.Inject
 
 class AndroidAppsRepository @Inject constructor(

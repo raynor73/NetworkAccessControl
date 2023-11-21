@@ -1,8 +1,8 @@
-package ilapin.networkaccesscontrol.data
+package ilapin.networkaccesscontrol2.data
 
 import android.content.Context
 import dagger.hilt.android.qualifiers.ApplicationContext
-import ilapin.networkaccesscontrol.domain.RestrictedNetworkAccessPackageNamesRepository
+import ilapin.networkaccesscontrol2.domain.RestrictedNetworkAccessPackageNamesRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.File

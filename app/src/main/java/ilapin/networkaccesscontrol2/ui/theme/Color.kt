@@ -1,4 +1,4 @@
-package ilapin.networkaccesscontrol.ui.theme
+package ilapin.networkaccesscontrol2.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
